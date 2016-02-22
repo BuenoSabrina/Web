@@ -1,0 +1,81 @@
+body{
+	background: #efefef;
+}
+
+.logo{
+	background: white;
+	width: 80%;
+}
+
+nav ul li:hover{
+	display:block;
+	background: linear-gradient(white 0%, grey 0%);
+}
+
+nav ul{
+	list-style-type: none;
+	display: inline-table;
+	padding-top: 1.5%;
+	width: 77.55%;
+	background: #efefef;
+	background: linear-gradient(#efefef 0%, #bbbbbb 100%);
+	border-radius: 15px;
+	
+}
+
+nav ul li{
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.texto1 {
+	position: absolute;
+	left: 53%;
+	top: 24%;
+	width: 25%;
+	text-align: justify;
+}
+
+.texto2{
+	position: absolute;
+	top: 70%;
+	width: 50%;
+	text-align: justify;
+}
+
+.texto3{
+	position: absolute;
+	top: 115%;
+	width: 50%;
+	text-align: justify;
+}
+
+box{
+	position: absolute;
+	list-style: none;
+	right: 21.5%;
+	top: 80%;
+	background: #696969;
+	width: 25%;
+	height: 50%;
+	text-align: justify;
+}
+
+box li{
+	text-align: center;
+}
+
+#inscrever{
+	position: relative;
+	left: 30%;
+}
+
+h6{
+	position: absolute;
+	text-align: center;
+	bottom: -60%;
+	margin-left: 20%;
+	margin-bottom: 2%;
+}
