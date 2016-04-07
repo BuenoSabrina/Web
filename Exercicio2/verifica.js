@@ -34,11 +34,11 @@ function verifica(){
 			alert("você tem " + idade + " anos");
 		}
 		
-		
-};
-
-	if (anonasc >= 1945 && anonasc <= 1999){
+		if (anonasc >= 1945 && anonasc <= 1999){
 		alert ("você está apto para votar");
 	}else{
 		alert ("você não está apto para votar");
 	}
+};
+
+	
