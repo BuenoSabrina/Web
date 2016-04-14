@@ -1,11 +1,20 @@
 $(document).ready(function(e){
 	$("#dialog-confirm").hide();
-	$(".menuPrincipal a").click(function(e){
-		e.preventDefaut();
+	/*$(".menuPrincipal a").click(function(e){
+		e.preventDefault();
 		var href = $(this).attr('href');
-		$(" .conteudo").load(href + " .conteudo");
- });
+		$(".conteudo").load(href + ".conteudo");
+ });*/
+
+//sobre
+$(".menuTopo a").click(function(e){
+	e.preventDefault();
+	var href = $(this).attr('href');
+	$(".conteudo").load(href + ".conteudo");
 });
+
+});
+
 function dialogo(){
 	$("#dialog-confirm").dialog({
 		resizable: false,
@@ -85,6 +94,15 @@ function dialogo(){
 		}
 });
 };
+
+//sobre
+/*$(document).ready(function(e){
+$(".menuTopo a ").click(function(e){
+e.preventDefault();
+var href=$(this).attr("href");
+$(".conteudo").load(href + ".conteudo");
+});
+});*/
 
 
   
