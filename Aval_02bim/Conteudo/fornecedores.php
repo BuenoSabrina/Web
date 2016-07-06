@@ -41,7 +41,7 @@
                 <tr>
                     <th>Nomes</th>
                     <th>Email</th>
-                    <th>Data de Cadastro</th>
+                    <th>Data Fundação</th>
                 </tr>
             </thead>
             <tbody>
